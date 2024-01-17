@@ -1,16 +1,30 @@
-### Hi there 👋
+```js
+export default class MyProfile {
+  constructor() { }
 
-<!--
-**BidAhs/BidAhs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  /**
+   * @returns {string} Gender
+   */
+  get gender() {
+    return "male";
+  }
 
-Here are some ideas to get you started:
+  /**
+   * @returns {Array<string>}
+   */
+  get skillset() {
+    return [
+      'NodeJS','Python','HTML/CSS'
+    ];
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  /**
+   * @returns {Object}
+   */
+  get socials() {
+    return {
+      "steam"  : "https://steamcommunity.com/id/bidahs",
+    }
+  }
+}
+```
