@@ -24,6 +24,7 @@ export default class MyProfile {
   get socials() {
     return {
       "steam"  : "https://steamcommunity.com/id/bidahs",
+      "codewars" : "https://www.codewars.com/users/BidAhs",
     }
   }
 }
