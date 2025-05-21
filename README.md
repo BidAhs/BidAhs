@@ -14,7 +14,7 @@ export default class MyProfile {
    */
   get skillset() {
     return [
-      'NodeJS','Python','HTML/CSS'
+      'NodeJS','Python','HTML/CSS','PHP'
     ];
   }
 
